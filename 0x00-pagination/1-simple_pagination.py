@@ -3,6 +3,7 @@
 """Pagination"""
 
 import csv
+import math
 from typing import Tuple, List
 
 def index_range(page, page_size) -> Tuple[int,int]:
