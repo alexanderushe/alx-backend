@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Pagination function to calculate indices."""
 from typing import Tuple
 def index_range(page, page_size) -> Tuple[int,int]:
