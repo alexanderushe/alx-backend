@@ -1,10 +1,12 @@
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-How to paginate a dataset with simple page and page_size parameters
-How to paginate a dataset with hypermedia metadata
-How to paginate in a deletion-resilient manner
+- How to paginate a dataset with simple page and page_size parameters
+- How to paginate a dataset with hypermedia metadata
+- How to paginate in a deletion-resilient manner
+- 
 Requirements
+
 All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7)
 All your files should end with a new line
 The first line of all your files should be exactly #!/usr/bin/env python3
