@@ -7,7 +7,7 @@ const sendNotification = (phoneNumber, message, job, done) => {
   job.progress(0, 100);
 
   if (blacklistedNumbers.includes(phoneNumber)) {
-    const errorMessage = `${phoneNumber} is already blacklisted`;
+    const errorMessage = `Phone number ${phoneNumber} is already blacklisted`;
     done(new Error(errorMessage));
   } else {
     job.progress(50, 100);
