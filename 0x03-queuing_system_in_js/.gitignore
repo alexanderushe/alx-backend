@@ -1,0 +1,10 @@
+# .gitignore
+
+# Ignore Node.js modules
+node_modules/
+
+# ignore package.json files
+package.json
+package-lock.json
+
+.babelrc
